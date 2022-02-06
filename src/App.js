@@ -2,7 +2,7 @@
 import './App.css';
 
 export function Topbread(){
-  const breadstyle ={
+  const breaddeco ={
     backgroundColor: "goldenrod",
     width:"200px",
     margin:"0 auto",
@@ -17,7 +17,7 @@ export function Topbread(){
     alignItems:"center",
     };
     return<> 
-  <div style={breadstyle}>
+  <div style={breaddeco}>
   <h2>topbread</h2>
   </div>
   </>
@@ -39,7 +39,7 @@ export function Tomato(){
 }
 
 export function Meat(){
-  const b ={
+  const protein ={
     backgroundColor: "saddlebrown",
     width:"200px",
     margin:"0 auto",
@@ -49,14 +49,14 @@ export function Meat(){
     
   };
   return<> 
-   <div style={b}>
+   <div style={protein}>
   <h2>meat</h2>
   </div>
   </>
 }
 
 export function Lattuce(){
-  const Lutt ={
+  const Luttu ={
     backgroundColor: "green",
     width:"200px",
     margin:"0 auto",
@@ -64,14 +64,14 @@ export function Lattuce(){
     marginTop:"-17px"
   };
   return<> 
-   <div style={Lutt}>
+   <div style={Luttu}>
   <h2>Lattuce</h2>
   </div>
   </>
 }
 
 export function Lattce(){
-  const Lutt ={
+  const Luttu ={
     backgroundColor: "goldenrod",
     width:"200px",
     margin:"0 auto",
@@ -82,7 +82,7 @@ export function Lattce(){
     borderBottomLeftRadius:"10px"
   };
   return<> 
-   <div style={Lutt}>
+   <div style={Luttu}>
   <h2>Lattuce</h2>
   </div>
   </>
